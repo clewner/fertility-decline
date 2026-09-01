@@ -11,11 +11,10 @@ to the test in three steps.
 
 1. **Korea's own history, 1980–2024.** Fertility, women's labor force participation,
    tertiary enrollment, men's share of unpaid work and fathers' share of parental leave
-   all trend steadily over the same decades. Correlating levels gives near-perfect
-   relationships; correlating year-to-year changes gives nothing. A single country's
+   all trend steadily over the same decades. We find out that a single country's
    time series cannot tell the mismatch apart from any other explanation.
-2. **Thirty OECD countries.** An absolute mismatch index, built from public-sphere
-   parity (labor force and tertiary enrollment) minus private-sphere parity (men's share
+2. **Thirty OECD countries.** An absolute mismatch index, built from a public sphere equality score
+    (labor force and tertiary enrollment) minus private sphere score (men's share
    of unpaid work), relates to fertility in the predicted direction but weakly
    (r = −0.25), and half of that comes from Korea alone.
 3. **How marriage comes into play.** The share of births outside marriage predicts fertility far
