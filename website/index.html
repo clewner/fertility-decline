@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Does the gender equity mismatch explain Korea's fertility collapse?</title>
+<meta name="description" content="Korea's fertility rate is 0.72. Testing the leading explanation against Korea's own history and against 30 OECD countries.">
+<meta property="og:title" content="Does the gender equity mismatch explain Korea's fertility collapse?">
+<meta property="og:description" content="Korea's fertility rate is 0.72. Testing the leading explanation against Korea's own history and against 30 OECD countries.">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📉</text></svg>">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<div id="tip" role="status" aria-live="polite"></div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="col">
+      <h1>Does the gender equity mismatch explain Korea's fertility collapse?</h1>
+      <p class="hero-sub">The most cited explanation says that fertility falls furthest where women gain
+        equality at school and work while the home stays traditional. I tested it against Korea's
+        own history and against 30 OECD countries.</p>
+      <p class="byline">Isaac Saxonov</p>
+    </div>
+    <div class="hero-figure">
+      <div class="num">0.72</div>
+      <div class="cap">Births per woman in South Korea in 2023, the lowest rate ever recorded
+        for a country and a third of what it was in 1980.</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============================== QUESTION ============================== -->
+<section id="question">
+  <div class="wrap">
+    <div class="col">
+      <h2>A country that modernized at work but not at home</h2>
+      <p>Peter McDonald's gender equity mismatch hypothesis is the standard account of
+        very low fertility. Institutions that treat people as individuals, such as schools and
+        employers, opened to women, while the family did not. Women are asked to work like men
+        and keep house like their mothers, so they have fewer children, or none at all.</p>
+      <p>Korea is the extreme case, and it has the configuration the theory describes. Korean
+        women enroll and work at close to the rate Korean men do, while Korean men do
+        <strong>18.6%</strong> of the unpaid work at home. If the theory is right anywhere,
+        it should be right here.</p>
+    </div>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-title">Korea's two spheres, where 100 means men and women are equal</div>
+      </div>
+      <div class="chart" id="fig-spheres"></div>
+      <figcaption>
+        <b>School and work</b> averages the ratio of women to men in labor force participation
+        and in tertiary enrollment. <b>Home</b> is men's share of unpaid work, doubled so that an
+        even split reads as 100. The mismatch is the distance between them, and Korea's gap is
+        the third largest in the OECD.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============================== DATA ============================== -->
+<section id="data">
+  <div class="wrap">
+    <div class="col">
+      <h2>Two units of analysis</h2>
+      <p>Korea year by year, from 1980 to 2024, to see whether the mismatch tracks the decline,
+        and then 30 OECD countries, one row each, to see whether the size of the gap separates
+        countries with low fertility from ordinary ones. Restricting the comparison to OECD
+        members holds income, health systems and access to contraception roughly constant.</p>
+    </div>
+
+    <div class="table-wrap col" style="max-width:none">
+      <table>
+        <tbody>
+          <tr><td>Total fertility rate</td><td>Korea 1980 to 2024; OECD 2024</td><td>World Bank</td></tr>
+          <tr><td>Labor force participation, women against men</td><td>Korea 1990 to 2024; OECD 2024</td><td>World Bank · ILO</td></tr>
+          <tr><td>Tertiary enrollment, women against men</td><td>Korea 2000 to 2024; OECD 2019 to 2024</td><td>World Bank · UNESCO</td></tr>
+          <tr><td>Men's share of unpaid work</td><td>Korea 1999 to 2024; OECD one survey each</td><td>KOSIS · OECD Time Use</td></tr>
+          <tr><td>Fathers' share of parental leave takers</td><td>Korea 2010 to 2024</td><td>Korea MOEL</td></tr>
+          <tr><td>Births outside marriage</td><td>OECD 2018 to 2024</td><td>OECD Family Database</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== STEP 1 ============================== -->
+<section id="step-1">
+  <div class="wrap">
+    <div class="col">
+      <h2>Korea's own history cannot answer the question</h2>
+      <p>The problem is that everything trends at once. Fertility falls while every equity
+        measure rises, and any two smooth trends will correlate strongly whether or not they
+        have anything to do with each other.</p>
+      <p>Over the period the equity data covers, both spheres improved. Women's labor force
+        participation rose, tertiary enrollment passed 100% of the age group, men's share of
+        housework doubled, and fathers went from 3% of parental leave takers to 32%, all while
+        fertility kept falling.</p>
+    </div>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-title">Korea: one line falls, four rise</div>
+      </div>
+      <div class="chart" id="fig-sparks"></div>
+      <figcaption>
+        Each panel is scaled to its own range, so these show shape and direction rather than
+        magnitude. Women in Korea still do <b>3.5 times</b> the housework men do.
+      </figcaption>
+    </figure>
+
+    <div class="col" style="margin-top:2.4rem">
+      <p>Correlate the raw yearly values and every equity measure lines up with fertility at
+        between −0.7 and −0.99, which taken literally would say that equality causes fertility
+        to fall. The standard fix is to correlate changes from one year to the next instead,
+        since that removes the shared trend, and once it is removed the correlations are close to zero.</p>
+    </div>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-title">Correlation with fertility, before and after removing the trend</div>
+        <div class="legend">
+          <span><i style="background:var(--accent)"></i>Raw yearly values</span>
+          <span><i style="background:var(--series)"></i>Changes from year to year</span>
+        </div>
+      </div>
+      <div class="chart" id="fig-dumbbell"></div>
+      <figcaption>
+        Shifting each series forward by one to four years, in case equity acts with a delay,
+        finds nothing either. A mismatch index built inside Korea does worse still: it comes out
+        <b>positive</b>, because after 2015 the home sphere improved faster than the work sphere,
+        because of a sharp rise in paternal leave that was itself a government response to low fertility.
+        A single country's time series cannot separate this hypothesis from any rival,
+        <b>which is why the test has to compare countries</b>.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============================== STEP 2 ============================== -->
+<section id="step-2">
+  <div class="wrap">
+    <div class="col">
+      <h2>Across countries the mismatch points the right way, but weakly</h2>
+      <p>The relationship runs in the direction the theory predicts, but it is small, and about
+        half of it comes from Korea by itself.</p>
+      <p>Measuring each sphere in absolute terms, as how far it sits from equality rather than
+        how far it has moved from a country's own past, makes countries comparable on the gap
+        the theory is about. The cluster of countries with the lowest fertility does sit on the
+        high mismatch side, but so do Portugal, Ireland and New Zealand, which have ordinary
+        fertility.</p>
+    </div>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-title">Mismatch against fertility <span id="r-mismatch" style="color:var(--ink-muted);font-weight:400"></span></div>
+        <button class="toggle" id="toggle-korea" type="button" aria-pressed="false">Drop Korea</button>
+      </div>
+      <div class="chart" id="fig-mismatch"></div>
+      <figcaption>
+        One dot per country; hover for the numbers. The dashed line is the least squares fit.
+        Press <b>Drop Korea</b> to refit without it, and the correlation falls from −0.25 to −0.13.
+        Splitting the 30 countries into thirds by mismatch gives average fertility of
+        <b>1.28, 1.36 and 1.43</b> from high to low, which is the right gradient but only 0.15
+        births across the entire range, and every third is far below replacement. Removing
+        differences in income changes nothing.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============================== STEP 3 ============================== -->
+<section id="step-3">
+  <div class="wrap">
+    <div class="col">
+      <h2>A different variable does most of the work</h2>
+      <p>The weak result raised a question about mechanism. In Korea almost every birth happens
+        inside marriage, so an unequal home is a reason not to marry, and not marrying means no
+        children. In France or Sweden a couple can have children without marrying. If that is how
+        the mismatch operates, it should matter most where births require marriage.</p>
+      <p>So I added the share of births that occur outside marriage, and it turned out to predict
+        fertility far better than the mismatch does.</p>
+    </div>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-title">Births outside marriage against fertility <span id="r-marriage" style="color:var(--ink-muted);font-weight:400"></span></div>
+      </div>
+      <div class="chart" id="fig-marriage"></div>
+      <figcaption>
+        Korea (4.7%), Japan (2.4%), Türkiye (3.1%) and Greece (9.7%) are the only OECD countries
+        under 10%, and the median is 40%. Those four average <b>1.15 births</b> per woman against
+        <b>1.39</b> everywhere else. The correlation is more than twice the size of the mismatch's,
+        and the relationship does not depend on Korea and Mexico, since without both it is still 0.36.
+      </figcaption>
+    </figure>
+
+    <div class="col" style="margin-top:2.4rem">
+      <p>Putting both in one regression shows which one matters. Adding the marriage variable raises explained
+        variation from 3% to 28%, and the mismatch coefficient drops to almost zero. The
+        interaction the theory predicts, that an unequal home should cost more where children
+        require marriage, is estimated at <strong>zero</strong>, and not merely too noisy to
+        distinguish from zero.</p>
+    </div>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-title">What each predictor is worth, as terms are added</div>
+        <div class="legend">
+          <span><i style="background:var(--series)"></i>Interval excludes zero</span>
+          <span><i style="background:var(--ink-muted)"></i>Interval includes zero</span>
+        </div>
+      </div>
+      <div class="chart" id="fig-forest"></div>
+      <figcaption>
+        OLS on 30 countries, predictors centered on their means, bars are 95% confidence intervals.
+        Model 1 is the mismatch alone; model 2 adds births outside marriage; model 3 adds their
+        interaction; model 4 adds income. Adjusted R² runs <b>0.03 → 0.28 → 0.26 → 0.24</b>.
+        Dropping Korea leaves the marriage coefficient positive and significant and the mismatch
+        coefficient at zero.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============================== RESIDUAL ============================== -->
+<section id="residual">
+  <div class="wrap">
+    <div class="col">
+      <h2>The most interesting number is the one nothing explains</h2>
+      <p>With both variables in the model, the model predicts 1.11 births per woman for Korea, and the
+        actual figure is 0.75. It is by far the lowest of the countries where birth is tied to marriage, since
+        Japan and Greece are at 1.20 and Türkiye at 1.50.</p>
+    </div>
+
+    <div class="stats col" style="max-width:none">
+      <div class="stat"><div class="v">1.11</div><div class="k">Korea's predicted fertility</div></div>
+      <div class="stat"><div class="v hot">0.75</div><div class="k">Korea's actual fertility</div></div>
+      <div class="stat"><div class="v">0.36</div><div class="k">Births below prediction, the largest miss in the sample</div></div>
+      <div class="stat"><div class="v">26%</div><div class="k">Of the variation across countries the full model explains</div></div>
+    </div>
+
+    <div class="col" style="margin-top:2.4rem">
+      <p>The shortfall is not only Korea's. Spain misses by 0.32, Estonia by 0.28 and Finland by
+        0.19, and none of those is a country where birth is tied to marriage. Whatever separates
+        very low fertility from ordinary fertility among rich countries, three quarters of it is
+        not in this model.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== TAKEAWAY ============================== -->
+<section id="takeaway">
+  <div class="wrap">
+   <div class="col">
+    <h2>The mismatch is real in Korea, but it is not what makes Korea different</h2>
+    <ol class="takeaway">
+      <li><b>Korea's own history cannot test the hypothesis.</b> Every equity measure trends
+        against fertility over the same decades, and once the shared trend is removed there is
+        nothing left.</li>
+      <li><b>Across the OECD the mismatch is weak, and half of it is Korea.</b> The direction is
+        right and it holds after controlling for income, but several countries with large
+        mismatches have perfectly ordinary fertility.</li>
+      <li><b>Whether birth is tied to marriage predicts fertility much better.</b> Once it is in
+        the model the mismatch adds nothing, and the interaction the theory predicts is
+        estimated at exactly zero.</li>
+      <li><b>None of this refutes the hypothesis.</b> Korea does have the configuration the theory
+        describes, and the mismatch could still work through marriage itself, but if it did it
+        should predict fertility among the countries where birth is tied to marriage, and it
+        does not.</li>
+    </ol>
+   </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap col" style="max-width:none">
+    <small>
+      <strong>Caveats.</strong> Thirty countries is a small sample, and three of them (Korea,
+      Türkiye and Mexico) move the fit noticeably. The OECD time use surveys are one per country
+      and the database does not return the survey year, so their values are of unknown and
+      differing age. Births outside marriage is defined slightly differently for Australia,
+      Japan, Korea and New Zealand, and the Korean housework and leave series are short. A high
+      share of births outside marriage shows how closely birth and marriage are linked in a
+      country, and it is safer to read it that way than as a cause.
+      <br><br>
+      Data: World Bank WDI · OECD Time Use Database · OECD Family Database SF2.4 ·
+      Statistics Korea via KOSIS · Korea Ministry of Employment and Labor.
+      Written for QSS 20 at Dartmouth College, August 2026.
+    </small>
+  </div>
+</footer>
+
+<script type="module">
+  import {
+    drawKoreaSparks, drawDumbbell, drawMismatchScatter,
+    drawMarriageScatter, drawForest, drawSpheres
+  } from "./assets/charts.js";
+
+  const repaint = [];
+
+  drawSpheres(document.getElementById("fig-spheres"));
+  drawKoreaSparks(document.getElementById("fig-sparks"));
+  drawDumbbell(document.getElementById("fig-dumbbell"));
+  repaint.push(drawMismatchScatter(
+    document.getElementById("fig-mismatch"),
+    document.getElementById("r-mismatch"),
+    document.getElementById("toggle-korea")
+  ));
+  repaint.push(drawMarriageScatter(
+    document.getElementById("fig-marriage"),
+    document.getElementById("r-marriage")
+  ));
+  drawForest(document.getElementById("fig-forest"));
+
+  // Colors are read from CSS custom properties, so redraw when the theme flips.
+  const scheme = window.matchMedia("(prefers-color-scheme: dark)");
+  scheme.addEventListener("change", () => {
+    drawSpheres(document.getElementById("fig-spheres"));
+    drawKoreaSparks(document.getElementById("fig-sparks"));
+    drawDumbbell(document.getElementById("fig-dumbbell"));
+    for (const fn of repaint) fn();
+    drawForest(document.getElementById("fig-forest"));
+  });
+</script>
+</body>
+</html>
