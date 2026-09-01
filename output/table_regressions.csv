@@ -1,0 +1,22 @@
+sample,model,term,coef,ci_low,ci_high,p,adj_r2,n
+All countries,(1),Intercept,1.3583,1.2793,1.4373,0.0,0.0298,30
+All countries,(1),Mismatch,-0.0059,-0.0148,0.0029,0.18,0.0298,30
+All countries,(2),Intercept,1.3583,1.2903,1.4263,0.0,0.2834,30
+All countries,(2),Mismatch,-0.0016,-0.0097,0.0065,0.6892,0.2834,30
+All countries,(2),Births outside marriage,0.0066,0.0025,0.0106,0.0027,0.2834,30
+All countries,(3),Intercept,1.3571,1.284,1.4301,0.0,0.2562,30
+All countries,(3),Mismatch,-0.0016,-0.0098,0.0067,0.7033,0.2562,30
+All countries,(3),Births outside marriage,0.0067,0.002,0.0114,0.0072,0.2562,30
+All countries,(3),Mismatch x marriage,-0.0,-0.0005,0.0004,0.9136,0.2562,30
+All countries,(4),Intercept,1.3574,1.2836,1.4312,0.0,0.2442,30
+All countries,(4),Mismatch,-0.0022,-0.0108,0.0063,0.5946,0.2442,30
+All countries,(4),Births outside marriage,0.0067,0.0019,0.0114,0.0081,0.2442,30
+All countries,(4),Mismatch x marriage,-0.0,-0.0005,0.0004,0.9362,0.2442,30
+All countries,(4),log GDP per capita,-0.0773,-0.2851,0.1305,0.4508,0.2442,30
+Without Korea,(2),Intercept,1.373,1.3087,1.4373,0.0,0.169,29
+Without Korea,(2),Mismatch,-0.0002,-0.0078,0.0074,0.9659,0.169,29
+Without Korea,(2),Births outside marriage,0.0051,0.0012,0.0091,0.0131,0.169,29
+Without Korea,(3),Intercept,1.3654,1.2983,1.4325,0.0,0.1618,29
+Without Korea,(3),Mismatch,0.0003,-0.0074,0.008,0.9323,0.1618,29
+Without Korea,(3),Births outside marriage,0.0059,0.0015,0.0102,0.01,0.1618,29
+Without Korea,(3),Mismatch x marriage,-0.0002,-0.0006,0.0002,0.3865,0.1618,29

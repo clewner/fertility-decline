@@ -1,0 +1,7 @@
+variable,r_levels,years_used,r_changes,changes_used
+female_lfp,-0.914,35,0.068,34.0
+female_tertiary,-0.725,25,0.012,24.0
+lfp_gap,0.951,35,0.119,34.0
+female_marriage_age,-0.729,8,,
+men_share_unpaid_pct,-0.939,6,-0.527,5.0
+father_share_leave_pct,-0.989,10,0.012,7.0
